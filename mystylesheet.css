@@ -1,0 +1,54 @@
+/* styling the background image */
+.parallax {
+    min-height: 100vh;
+    background-image: url(https://images.unsplash.com/photo-1725380613858-092b8795f814?q=80&w=1470&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-blend-mode: multiply;
+    background-attachment: scroll;
+}
+
+.nav-link {
+    text-decoration: none;
+    display:flex !important;
+    color:black;
+    font-family: Arial, Helvetica, sans-serif;
+    padding-right:15px !important ;
+}
+
+.nav-link:hover {
+    background-color: red;
+    color:white;
+    padding-bottom: 5px;
+    border: 2px red;
+    border-radius:15px;
+}
+
+.fst-italic {
+    text-decoration: none !important;
+    color: black !important;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 25px;
+}
+
+.u-list {
+    display:inline-block;
+}
+
+.btn {
+    /*align-items: flex-start;*/
+    margin-top: 30%;
+    border-radius: 15px !important;
+}
+
+.btn:hover {
+    color: white;
+    background-color: red;
+    border: 4px;
+    border-radius: 15px;
+}
+
+#contacts {
+    padding-left: 5%;
+}

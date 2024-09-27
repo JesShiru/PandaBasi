@@ -1,0 +1,30 @@
+
+
+.form-control {
+    width:40% !important;
+}
+.col-12 {
+    border-radius: 500px !important;
+    width:10% !important;
+    margin-left: 40px !important;
+}
+
+.row {
+    margin-right: 20px !important;
+    margin-top: 10px !important;
+}
+
+.g-3 {
+    padding-right: 1.05rem !important;
+    padding-left: 1.05rem !important;
+}
+
+.form-label {
+    font-weight: bold !important;
+}
+
+#btn:hover {
+    background-color: red;
+    border: 2px !important;
+    border-radius: 15px !important;
+}
